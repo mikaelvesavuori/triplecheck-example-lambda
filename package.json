@@ -1,0 +1,34 @@
+{
+  "name": "triplecheck-example-lambda",
+  "version": "0.0.1",
+  "description": "TripleCheck broker running on AWS Lambda and DynamoDB",
+  "main": "src/index.ts",
+  "author": "Mikael Vesavuori",
+  "license": "MIT",
+  "keywords": [
+    "triplecheck",
+    "contract-testing",
+    "consumer-driven-contracts",
+    "consumer-contracts",
+    "pacts"
+  ],
+  "scripts": {
+    "start": "npx sls offline",
+    "deploy": "npx sls deploy",
+    "remove": "npx sls remove"
+  },
+  "dependencies": {
+    "triplecheck-broker": "^0.0.7",
+    "triplecheck-repository-dynamodb": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.3",
+    "babel-loader": "^8.2.2",
+    "serverless": "^2.41.2",
+    "serverless-offline": "^7.0.0",
+    "serverless-webpack": "^5.5.0",
+    "ts-loader": "^9.1.2",
+    "typescript": "^4.2.4",
+    "webpack": "^5.37.0"
+  }
+}
