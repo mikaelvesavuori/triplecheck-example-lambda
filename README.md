@@ -1,5 +1,7 @@
 # triplecheck-example-lambda
 
+![TripleCheck example implementation](readme/triplecheck-example.png)
+
 ## TripleCheck broker running on AWS Lambda and DynamoDB
 
 This repo demonstrates a working, basic implementation of a [TripleCheck broker](https://github.com/mikaelvesavuori/triplecheck-broker) running on AWS Lambda with the database in DynamoDB (pay-as-you-go model).
