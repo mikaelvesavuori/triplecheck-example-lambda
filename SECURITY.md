@@ -7,7 +7,6 @@ These versions of `triplecheck-example-lambda` are currently being supported wit
 | Version | Supported |
 | ------- | --------- |
 | 1.x.x   | :x:       |
-| 0.x.x   | :x:       |
 
 ## Reporting a Vulnerability
 
